@@ -53,4 +53,4 @@ def maximize_two(stats, target1, target2):
             if possible_changes: print possible_changes
     return min(possible_changes, key = value)
 
-print at_least([], 410 - 343)
+print at_least([113, 76, 94, 121, 76, 62, 81, 46, 94, 94, 121, 94, 76, 73, 59], 410)
